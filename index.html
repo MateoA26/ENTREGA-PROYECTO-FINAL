@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketAr</title>
+    
+    <link rel="icon" href="./IMAGENES/logo m 2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>
+        <nav class="navbar-expand-lg navbar navbar-dark fixed-top" style="background-color: #0004ff;">
+            <div class="container-fluid">
+              <div > <img src="./IMAGENES/LOGO M.png" class="logo" ></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-color: #0004ff;">
+                <div class="offcanvas-header" style="background-color: #141a7a;">
+                
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+                </div>
+                <div class="offcanvas-body" style="background-color:#0004ff ;">
+                  <ul class="navbar-nav justify-content-start flex-grow-1 pe-3" >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html#fiestas">Fiestas</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link active" href="index.html#Contacto">
+                        Contacto
+                       </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./carrito.html"><img src="./IMAGENES/carrito-de-compras.png" alt="carrito" id="carritoCompra"></a>
+                   </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header> 
+    
+    <body>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+            <div class="carousel-inner" id="inicio">
+              <div class="carousel-item active">
+                <img src="./IMAGENES/Fiesta Napoles.jpg.png" class="d-block w-100" alt="Banner Napoles" id="imagenes-banner">
+              </div>
+              <div class="carousel-item active">
+                <img src="./IMAGENES/laPostaUade.png" class="d-block w-100" alt="Banner LPUADE" id="imagenes-banner">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGENES/Fiesta Electronica.png" class="d-block w-100" alt="Banner Electronica" id="imagenes-banner">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGENES/La Porteña.png" class="d-block w-100" alt="Banner La Porteña" id="imagenes-banner">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAGENES/Fiesta Bresh.png" class="d-block w-100" alt="Banner Bresh" id="imagenes-banner">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="container-fiestas" id="fiestas">
+          <div class="grid-item"><img src="./IMAGENES/Fiesta Napoles.jpg.png" alt="Fiesta Napoles" class="imagenes-fiestas"> 
+            <h2> Fiesta Napoles</h2>
+            <h4> 23 de Septiembre </h4>
+            <a href="Napoles.html"><div class="comprar"> Para Más Información </div></a>
+        </div>
+            <div class="grid-item"><img src="./IMAGENES/Fiesta Bresh.png" alt="logo-bresh" class="imagenes-fiestas"> 
+                <h2> Fiesta BRESH</h2>
+                <h4>24 de Septiembre </h4>
+                <a href="Bresh.html"> <div class="comprar">  Para Más Información </div></a>
+            </div>
+            <div class="grid-item"><img src="./IMAGENES/La Porteña.png" alt="La Porteña" class="imagenes-fiestas"> 
+                <h2> La Porteña</h2>
+                <h4>30 de Septiembre </h4>
+                <a href="LaPorteña.html"> <div class="comprar"> Para Más Información </div></a>
+            </div>
+            <div class="grid-item"><img src="./IMAGENES/fiesta.jpg" alt="Atyka Fest" class="imagenes-fiestas">
+                <h2> Atika Fest</h2>
+                <h4>18 de Noviembre</h4>
+                <a href="Atyka.html"> <div class="comprar"> Para Más Información </div></a>
+            </div>
+            <div class="grid-item"><img src="./IMAGENES/laPostaUade.png" alt="Fiesta UADE" class="imagenes-fiestas">
+                <h2> La Posta UADE</h2>
+                <h4> 19 de Noviembre</h4>
+                <a href="laPosta.html"><div class="comprar"> Para Más Información </div></a>
+            </div>
+            <div class="grid-item"><img src="./IMAGENES/Fiesta Electronica.png" alt="Fiesta Electronica" class="imagenes-fiestas">
+                <h2> Electronica</h2>
+                <h4> 25 de Noviembre </h4>
+                <a href="electronica.html"><div class="comprar"> Para Más Información </div></a>
+            </div>
+            
+
+    </body>
+
+    <footer>
+        <div id="Contacto">
+            <a href="https://www.instagram.com/" target="_blank"><img src="./IMAGENES/instagram.png" alt="logo instagram" class="imagenes-redes"> </a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank"><img src="./IMAGENES/logotipo-de-twitter.png" alt="logo twitter" class="imagenes-redes"> </a>
+        </div>
+            
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
